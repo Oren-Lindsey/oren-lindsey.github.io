@@ -7,19 +7,15 @@ languageCode = "en-us"
 theme = "poison"
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
-
-# NOTE: If using Disqus as commenting engine, uncomment and configure this line
-# disqusShortname = "yourDisqusShortname"
-
 [params]
-    brand = "Poison"                      # name of your site - appears in the sidebar
+    brand = "Oren Lindsey"                      # name of your site - appears in the sidebar
     # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-    description = "Update this description..." # Used as default meta description if not specified in front matter
-    dark_mode = true                      # optional - defaults to false
+    description = "The personal blog of Oren Lindsey" # Used as default meta description if not specified in front matter
+    dark_mode = true                    # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
-    front_page_content = ["posts"] # Equivalent to the default value, add page bundle names to include them on the front page.
+    # Add page bundle names to include them on the front page.
 
     # MENU PLACEHOLDER
     # Menu dict keys:
@@ -29,11 +25,13 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5}
     ]
+    timeZone = "America/New_York"
+    
 
     # Links to your socials.  Comment or delete any you don't need/use. 
-    email_url = "mailto://oren@lindsey.studio"
+    email_url = "mailto:oren@lindsey.studio"
     github_url = "https://github.com/Oren-Lindsey"
     youtube_url = "https://www.youtube.com/@orenlindsey"
 

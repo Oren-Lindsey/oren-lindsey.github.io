@@ -1,6 +1,7 @@
 +++
 Description = ""
-Tags = ["Development", "golang"]
-Categories = ["Development", "GoLang"]
 menu = "main"
+tags = ["General"]
+[params]
+    author = "Oren Lindsey"
 +++

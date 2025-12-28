@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Dec 2025 02:15:11 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>//localhost:1313/posts/first/</link>
+      <pubDate>Sun, 28 Dec 2025 02:15:11 +0000</pubDate>
+      <guid>//localhost:1313/posts/first/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;Hello everyone, my name is Oren Lindsey. This is my first post on my new blog. Hopefully this will be a place where I post often.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
