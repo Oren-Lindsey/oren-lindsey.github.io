@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-12-28T02:15:11+00:00</lastmod>
+    <lastmod>2025-12-29T22:47:22+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/book-reviews/</loc>
+    <lastmod>2025-12-29T22:47:22+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/book-reviews/</loc>
+    <lastmod>2025-12-29T22:47:22+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-12-29T22:47:22+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-12-29T22:47:22+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/first/</loc>
     <lastmod>2025-12-28T02:15:11+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/general/</loc>
-    <lastmod>2025-12-28T02:15:11+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-12-28T02:15:11+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-12-28T02:15:11+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/about/</loc>

@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Dec 2025 02:15:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 22:47:22 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Reviews</title>
+      <link>//localhost:1313/posts/book-reviews/</link>
+      <pubDate>Mon, 29 Dec 2025 22:47:22 +0000</pubDate>
+      <guid>//localhost:1313/posts/book-reviews/</guid>
+      <description>&lt;h2 id=&#34;books-in-the-attic&#34;&gt;Books in the Attic&lt;/h2&gt;&#xA;&lt;p&gt;While cleaning up in the attic, I found about 50 nonfiction books that look very interesting: &lt;img src=&#34;//localhost:1313/posts/book-reviews/books.jpeg&#34; alt=&#34;Books in the attic&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-plan&#34;&gt;My Plan&lt;/h2&gt;&#xA;&lt;p&gt;My plan is to read them all throughout 2026, and write about them on this blog. You can find a list of all of them &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1-gHygCMivYy_aGNMJ_B9bqbU0vQgTzuRycT2gUGlVsI/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Most of them are Christian-focused, which may not be of interest to you, but I hope writing about them will be somewhat interesting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First</title>
       <link>//localhost:1313/posts/first/</link>
