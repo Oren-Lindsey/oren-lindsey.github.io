@@ -2,7 +2,7 @@
   [module.hugoVersion]
     min = "0.41.0"
 
-baseURL = "/"
+baseURL = "https://blog.lindsey.studio"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
