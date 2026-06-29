@@ -1,0 +1,243 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oren Lindsey - Projects</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0f172a;
+            --bg2: #111827;
+            --card: rgba(255,255,255,0.06);
+            --border: rgba(255,255,255,0.1);
+            --text: #f8fafc;
+            --muted: #cbd5e1;
+            --accent: #60a5fa;
+            --accent2: #8b5cf6;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            background:
+                radial-gradient(circle at top left, #2563eb33, transparent 40%),
+                radial-gradient(circle at bottom right, #8b5cf633, transparent 40%),
+                linear-gradient(135deg, var(--bg), var(--bg2));
+            color: var(--text);
+            min-height: 100vh;
+            padding: 60px 24px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 16px;
+            background: linear-gradient(90deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--muted);
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+        }
+
+        .projects {
+            display: grid;
+            gap: 28px;
+        }
+
+        .project {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 28px;
+            backdrop-filter: blur(14px);
+            transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-6px);
+            border-color: rgba(96,165,250,.5);
+            box-shadow: 0 20px 40px rgba(0,0,0,.35);
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: var(--muted);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .button {
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            padding: 11px 18px;
+            border-radius: 999px;
+            font-weight: 600;
+            transition: transform .2s ease, opacity .2s ease;
+        }
+
+        .button.secondary {
+            background: rgba(255,255,255,.08);
+            border: 1px solid rgba(255,255,255,.12);
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            opacity: .95;
+        }
+
+        footer {
+            text-align: center;
+            color: #94a3b8;
+            margin-top: 60px;
+            font-size: .95rem;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 40px 18px;
+            }
+
+            .project {
+                padding: 22px;
+            }
+
+            .links {
+                flex-direction: column;
+            }
+
+            .button {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Oren Lindsey - Projects</h1>
+    <p class="subtitle">
+        A collection of applications and websites built with Swift, SvelteKit, and modern web technologies.
+    </p>
+
+    <div class="projects">
+
+        <div class="project">
+            <h2>Quidgets</h2>
+            <p>
+                An iOS application that allows you to display any custom text as a beautiful
+                Home Screen widget.
+            </p>
+
+            <div class="links">
+                <a class="button" href="https://apps.apple.com/us/app/quidgets/id6739544236" target="_blank">
+                    View on the App Store
+                </a>
+
+                <a class="button secondary" href="https://github.com/Oren-Lindsey/Widget-Quotes" target="_blank">
+                    GitHub Repository
+                </a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>wasteof-ios</h2>
+            <p>
+                An unreleased native iOS frontend for the wasteof.money social media platform,
+                built with Swift and SwiftUI.
+            </p>
+
+            <div class="links">
+                <a class="button secondary" href="https://github.com/Oren-Lindsey/wasteof-ios" target="_blank">
+                    GitHub Repository
+                </a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Quack</h2>
+            <p>
+                A lightweight, fast SvelteKit application that allows users to ask questions,
+                share them with others, and submit answers.
+            </p>
+
+            <div class="links">
+                <a class="button" href="https://quack.lindsey.studio/" target="_blank">
+                    Visit Website
+                </a>
+
+                <a class="button secondary" href="https://github.com/Oren-Lindsey/quack" target="_blank">
+                    GitHub Repository
+                </a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>List</h2>
+            <p>
+                A Christmas list web application built with SvelteKit that lets families share
+                wish lists while allowing gifts to be privately checked off.
+            </p>
+
+            <div class="links">
+                <a class="button" href="https://list.lindsey.studio/" target="_blank">
+                    Visit Website
+                </a>
+
+                <a class="button secondary" href="https://github.com/Oren-Lindsey/list-v2" target="_blank">
+                    GitHub Repository
+                </a>
+            </div>
+        </div>
+
+    </div>
+<div style="text-align:center; margin-top:48px;">
+
+    <a class="button" href="https://github.com/Oren-Lindsey" target="_blank">
+
+        More Projects
+
+    </a>
+
+</div>
+
+
+    <footer>
+        © 2026 Oren Lindsey
+    </footer>
+
+</div>
+
+
+
+</body></html>
